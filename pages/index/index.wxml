@@ -1,0 +1,6 @@
+<view class="page">
+  <view style="display: flex;position: absolute; bottom: 100rpx; top: 3rpx; left: 0rpx; width: 100%; background: #d3d3d3">
+    <text style="background-color: {{temperatureColor}};" user-select="{{ false }}" bindtap="showHistory" class="currentTemperature">{{temperatureText}}℃</text>
+  </view>
+  <button style="width: 100%; height: 100rpx; position: absolute; bottom: 0rpx;" bindtap='initBlue' type="primary">初始化蓝牙连接</button>
+</view>

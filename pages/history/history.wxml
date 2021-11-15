@@ -1,0 +1,12 @@
+<!--pages/history.wxml-->
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="page__bd">
+    <mp-cells ext-class="my-cells" title="{{historyDataArray[0].date}}">
+      <view wx:for="{{historyDataArray}}">
+        <mp-slideview show="{{false}}" buttons="{{slideButtons}}" icon="{{false}}" bindbuttontap="slideButtonTap">
+          <mp-cell id="{{item.id}}" value="{{item.temperature}}℃" footer="{{item.time}} "></mp-cell>
+        </mp-slideview>
+      </view>
+    </mp-cells>
+  </view>
+</view>

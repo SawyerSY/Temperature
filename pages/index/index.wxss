@@ -1,0 +1,22 @@
+/**index.wxss**/
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.currentTemperature {
+  margin-top: 50%;
+  margin-left: 50%;
+  translate: -50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+
+  width: 200rpx;
+  height: 200rpx;
+  color: white;
+  font-size: larger;
+  border-radius: 100rpx;
+}
